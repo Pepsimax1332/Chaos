@@ -20,7 +20,7 @@ class ChaosGame:
         r0 - apply no restrictions.
         r1 - prevent chosen vertex being equal to its predecessor.
         r2 - prevent chosen vertex being one step away anti-clockwise and previous vertex.
-        r3 - prevent chosen vertex being one step away from previous vertex.
+        r3 - prevent chosen vertex being one step away clockwise from previous vertex.
         r4 - prevent chosen vertex being neighbours with the previous if the previous two vertices match.
 
     The ratio of the distance to travel before marking a point can be controlled with the ratio parameter. This
